@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Typescript include generator", "Typescript include generator\Typescript include generator.csproj", "{CC900785-26A6-49C3-9089-A681A09646FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC900785-26A6-49C3-9089-A681A09646FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC900785-26A6-49C3-9089-A681A09646FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC900785-26A6-49C3-9089-A681A09646FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC900785-26A6-49C3-9089-A681A09646FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F926D3D5-D08E-4F9F-BD29-02C8F1DFD642}
+	EndGlobalSection
+EndGlobal
