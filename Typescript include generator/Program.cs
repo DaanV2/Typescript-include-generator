@@ -44,7 +44,7 @@ namespace Typescript_include_generator {
             foreach (Folder sf in folder.SubFolders) {
                 var DI = new DirectoryInfo(sf.Path);
 
-                Writer.WriteLine($"export * as {DI.Name.Replace(' ', '_')} from './{DI.Name}/include'");
+                Writer.WriteLine($"export * as {DI.Name.Replace(' ', '_')} from './{DI.Name}/include';");
             }
 
             //include each file
@@ -54,7 +54,7 @@ namespace Typescript_include_generator {
                 if (FI.Name == "include.ts")
                     continue;
 
-                Writer.WriteLine($"export * from './{FI.Name.Replace(FI.Extension, String.Empty)}'");
+                Writer.WriteLine($"export * from './{FI.Name.Replace(FI.Extension, String.Empty)}';");
             }
 
             //done!
