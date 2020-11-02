@@ -51,10 +51,11 @@ namespace Typescript_include_generator {
             foreach (String F in folder.Files) {
                 var FI = new FileInfo(F);
 
-                if (FI.Name == "include.ts")
+                if (FI.Name == "include.ts") {
                     continue;
+                }
 
-                Writer.WriteLine($"export * from './{FI.Name.Replace(FI.Extension, String.Empty)}';");
+                Writer.WriteLine($"export * from \"./{FI.Name.Replace(FI.Extension, String.Empty)}\";");
             }
 
             //done!
